@@ -5,7 +5,7 @@ const Showcard = (props) => {
 const {Cirtificate, img,rating, student, title } = props.cards;        
 
     return (
-        <div className="cards">
+        <div>
             <Col>
       <Card>
         <Card.Img variant="top" src={img} />

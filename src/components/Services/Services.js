@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
-import { useEffect } from 'react/cjs/react.development';
 import Showcard from '../Showcard/Showcard';
 import './Services.css'
 
@@ -16,8 +15,11 @@ const Services = () => {
         <div className="services">
             <Row xs={1} md={4} className="g-4">
                 {
-                   servicesCard.map(cards=>
-                       <Showcard key={cards.title} cards={cards} ></Showcard>
+                   servicesCard.map(cards=><Showcard
+                     key={cards.img}
+                     cards={cards} 
+                    >
+                        </Showcard>
                    ) 
                 }
             </Row>
