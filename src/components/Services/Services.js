@@ -16,9 +16,9 @@ const Services = () => {
         <div className="services">
             <Row xs={1} md={4} className="g-4">
                 {
-                   servicesCard.map(cards=>(
+                   servicesCard.map(cards=>
                        <Showcard key={cards.title} cards={cards} ></Showcard>
-                   )) 
+                   ) 
                 }
             </Row>
         </div>

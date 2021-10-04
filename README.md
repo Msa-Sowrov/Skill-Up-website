@@ -1,6 +1,6 @@
 # SkillUP with this educational platform
 
-Live Site:  (https://github.com/facebook/create-react-app).
+Live Site:  (https://jolly-galileo-9bd774.netlify.app/).
 
 * You can find so many cource just for free
 * We  give maximum support to our student.
