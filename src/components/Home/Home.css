@@ -1,3 +1,29 @@
 .home{
-    margin: 50px 60px;
+    margin: 50px 70px;
+}
+.home h1{
+    text-align: center;
+    margin:30px;
+}
+.home-banner img{
+    width: 100%;
+}
+.home-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 60px;
+
+}   
+.title{
+    color: green;
+    font-weight: 600;
+}
+
+.home-banner div{
+    margin-left: 20px;
+}
+.home-banner div h1 {
+   font-weight: 800;
+    font-size: 3rem;
 }
