@@ -1,0 +1,26 @@
+.container{
+    margin:0 20px;
+    background-color: lightgray;
+
+    
+}
+.navBar{
+    display:flex ;
+    align-items: center;
+}
+.nav-item{
+    margin-right: 10px;
+    color: gray;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navBar img{
+    width: 50px;
+    margin-right: 2%;
+}
+.green{
+    color: green;
+}
+.navBar h2{
+        margin-right: 10%;
+}
