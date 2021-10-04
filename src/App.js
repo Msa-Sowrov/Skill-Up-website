@@ -12,6 +12,8 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Myfooter from './components/Myfooter/Myfooter';
 import Services from './components/Services/Services';
+import Faqs from './components/Home/Faqs/Faqs';
+import Notfound from './components/Notfound/Notfound';
 
 
 function App() {
@@ -32,6 +34,12 @@ function App() {
          </Route>
         <Route path="/services">
           <Services></Services>
+        </Route>
+        <Route path="/faq">
+              <Faqs></Faqs>
+        </Route>
+        <Route path="*">
+            <Notfound></Notfound>
         </Route>
        </Switch>
        <Myfooter></Myfooter>

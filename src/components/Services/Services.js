@@ -14,7 +14,7 @@ const Services = () => {
 
     return (
         <div className="services">
-            <Row xs={1} md={3} className="g-4">
+            <Row xs={1} md={4} className="g-4">
                 {
                    servicesCard.map(cards=>(
                        <Showcard key={cards.title} cards={cards} ></Showcard>

@@ -3,6 +3,7 @@ import { Row } from 'react-bootstrap';
 import Homecard from '../Homecard/Homecard';
 import './Home.css'
 import image from '../../images/math teacher.svg'
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     const [courses, setCourse] = useState([])
@@ -47,6 +48,12 @@ const Home = () => {
                     )
             }
                    </Row>
+                   
+                   <Link to="/services">
+                       <button className="show-btn">Show More</button>
+                   
+                   </Link>     
+                       
         </div>
         </div>
     );

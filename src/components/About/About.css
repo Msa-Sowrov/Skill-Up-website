@@ -1,0 +1,18 @@
+.title-about{
+    color: rgb(55, 161, 55);
+    text-align: center;
+    margin: 30px 0;
+}
+
+.about{
+    margin: 30px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about div{
+    width: 50%;
+}
+.about div img{
+    width: 90%;
+}
